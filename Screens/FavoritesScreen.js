@@ -5,9 +5,9 @@ import {Text,View,SafeAreaView,StyleSheet,ImageBackground,Alert,ToastAndroid, Fl
 import {addFavorite,removeFavorite,getFavorites,searchFavorite} from "../Modules/AsyncStoragesCRUD"
 import Icon from "react-native-vector-icons/FontAwesome"
 import axios from 'axios'
+require('dotenv').config();
 
-const API_KEY = 'c9e157fc1979d81609ea71c2697778f6'; 
-
+const API_KEY = process.env.OPENWEATHERMAP_API_KEY 
 
 
 export default function FavoritesScreen  ({navigation}){

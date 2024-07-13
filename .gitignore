@@ -28,8 +28,14 @@ yarn-error.*
 .DS_Store
 *.pem
 
-# local env files
-.env*.local
+# Ignore all .env files
+.env
+
+# Ignore all .env.local files (if you have such variants)
+.env.local
+
+# Ignore all .env* files and their variations
+.env*
 
 # typescript
 *.tsbuildinfo

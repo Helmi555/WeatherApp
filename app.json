@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "WeatherApp",
+    "slug": "WeatherApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/WeatherAppLogo2.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/WeatherAppLogo2.png",
+      "resizeMode": "native",
+      "backgroundColor": "#8A2BE2"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/WeatherAppLogo2.png",
+        "backgroundColor": "#4A90E2"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ],
+      "package": "com.mydream55.WeatherApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "084c2f94-8354-4592-846a-8b9de96d1b65"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}

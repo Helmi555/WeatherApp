@@ -3,6 +3,9 @@
 WeatherApp is a simple React Native application that displays weather information, including current conditions, a 4-day forecast, and a list of favorite cities.
 
 ## Screenshots
+<img src="./images/home_screen.png" alt="Home Screen" width="300"/>
+<img src="https://github.com/user-attachments/assets/4526645a-4c87-4f4d-82a4-1476c748f919" alt="Home Screen" width="300"/>
+
 
 ![Screenshot_20240713-212612](https://github.com/user-attachments/assets/4526645a-4c87-4f4d-82a4-1476c748f919)
 

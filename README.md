@@ -11,7 +11,7 @@ WeatherApp is a simple React Native application that displays weather informatio
 <img src="https://github.com/user-attachments/assets/b7e06316-50b9-431d-b1bd-3272709f115d" alt="Forecast Screen" width="300"/>
 
 ### Favorites Screen
-<img src="https://github.com/user-attachments/assets/d98693c3-25e8-4dc4-a359-73f9740b03d1" alt="Forecast Screen" width="300"/>
+<img src="https://github.com/user-attachments/assets/2428c421-deab-42ca-bdad-4b2972f98f4b" alt="Forecast Screen" width="300"/>
 
 
 ## Features

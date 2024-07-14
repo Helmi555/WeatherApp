@@ -27,7 +27,7 @@ export default function App(){
   
       {
             
-            tabBarStyle: { backgroundColor: '#756AB6',
+            tabBarStyle: { backgroundColor: '#7E48B7',
               borderTopWidth:1,
               borderColor: '#5A4E96',
               borderTopLeftRadius:30,

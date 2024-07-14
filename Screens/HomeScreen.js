@@ -11,7 +11,7 @@ import LottieView from 'lottie-react-native';
 
 
 //const {displayHeight}=Dimensions.get('window')
-let isDay
+const API_KEY =process.env.EXPO_PUBLIC_API_KEY
 
 const HomeScreen = ({navigation,route}) => {
 
@@ -119,7 +119,7 @@ useEffect(()=>{
   const fetchWeather =async (lat,lon)=>{
     //console.log("ciao")
     try{
-      const response=await axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=00165ea431744c358350696f4c910d43&units=metric`)
+      const response=await axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`)
       //console.log(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=00165ea431744c358350696f4c910d43&units=metric`)
       
       setWeather(response.data)

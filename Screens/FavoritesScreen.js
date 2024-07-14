@@ -5,11 +5,11 @@ import {Text,View,SafeAreaView,StyleSheet,ImageBackground,Alert,ToastAndroid, Fl
 import {addFavorite,removeFavorite,getFavorites,searchFavorite} from "../Modules/AsyncStoragesCRUD"
 import Icon from "react-native-vector-icons/FontAwesome"
 import axios from 'axios'
-require('dotenv').config();
+import Config from "react-native-config"
 
-const API_KEY = process.env.OPENWEATHERMAP_API_KEY 
+const API_KEY =process.env.EXPO_PUBLIC_API_KEY
 
-
+console.log(API_KEY)
 export default function FavoritesScreen  ({navigation}){
 
   const [modalVisible, setModalVisible] = useState(false);
@@ -17,7 +17,7 @@ export default function FavoritesScreen  ({navigation}){
   const [favoritesWeather,setFavoritesWeather]=useState([])
   const [text,setText]=useState("")
   const [suggestions,setSuggestions]=useState([])
-
+  const[error,setError]=useState("")
 
   useEffect(()=>{
     getFavorites().then((favorites)=>{

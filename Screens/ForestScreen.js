@@ -6,6 +6,7 @@ import { useFonts, Poppins_400Regular, Poppins_700Bold } from '@expo-google-font
 import { addFavorite } from '../Modules/AsyncStoragesCRUD';
 
 
+const API_KEY =process.env.EXPO_PUBLIC_API_KEY
 
 function formatDateTime(unixTimestamp) {
   const date = new Date(unixTimestamp * 1000);
@@ -25,7 +26,6 @@ const ForestScreen = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const API_KEY = 'c9e157fc1979d81609ea71c2697778f6'; // Replace with your actual API key
 
   const handleTextInput=(text)=>{
     setQuery(text)

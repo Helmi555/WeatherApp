@@ -4,8 +4,8 @@ WeatherApp is a simple React Native application that displays weather informatio
 
 ## Screenshots
 
-![Home Screen] (images/Screenshot_20240713-212612.png)
-![Forecast Screen] (images/Screenshot_20240713-212627.png)
+![Home Screen] (./images/Screenshot_20240713-212612.png)
+![Forecast Screen] (./images/Screenshot_20240713-212627.png)
 
 ![Favorites Screen] (./images/Screenshot_20240713-211654.png)
 
